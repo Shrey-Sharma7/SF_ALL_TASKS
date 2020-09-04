@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUDO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <h1>BASIC LUDO</h1>
+
+    </header>
+
+    <div class="container">
+      <div class="p1">
+        <h1>Player A</h1>
+        <div class="icon1 icon">
+          <i class="fas fa-male i1 f1" id="r1"></i>
+          <i class="fas fa-male i1 f1" id="r2"></i>
+        </div>
+
+      </div>
+
+      <div class="ludo-grid">
+        <div class="top">
+          <div id="a1" class="start1 box"><i class="fas fa-home i1 home1"></i></div>
+          <div id="a2" class="box"></div>
+          <div id="a3" class="box"></div>
+          <div id="a4" class="box"></div>
+          <div id="a5" class="box"></div>
+          <div id="a6" class="box"></div>
+          <div id="a7" class="box"></div>
+          <div id="a8" class="box"></div>
+        </div>
+
+        <div class="middle">
+          <div class="box-2" id="left">
+            <div id="a28" class="end1 box"><i class="fas fa-flag i1 home1"></i></div>
+            <div id="a27" class="box"></div>
+            <div id="a26" class="box"></div>
+            <div id="a25" class="box"></div>
+            <div id="a24" class="box"></div>
+            <div id="a23" class="box"></div>
+          </div>
+
+          <div class="center">
+            <div class="dice-box">
+              <h1 id="Roll-h" style="color: #ffe0b5;">Let's Roll!!</h1>
+              <div class="dice">
+                <img src="dice.svg" class="dice-img" />
+              </div>
+              
+            </div>
+  
+            <div class="windiv">
+              <h1 style="margin: 0;">Winner Tokens</h1>
+              <div class="win-box">
+
+              </div>
+  
+            </div>
+          </div>
+
+
+
+
+          <div class="box-2">
+            <div id="a9" class="box"></div>
+            <div id="a10" class="box"></div>
+            <div id="a11" class="box"></div>
+            <div id="a12" class="box"></div>
+            <div id="a13" class="box"></div>
+            <div id="a14" class="end2 box"><i class="fas fa-flag i2 home2"></i></div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div id="a22" class="box"></div>
+          <div id="a21" class="box"></div>
+          <div id="a20" class="box"></div>
+          <div id="a19" class="box"></div>
+          <div id="a18" class="box"></div>
+          <div id="a17" class="box"></div>
+          <div id="a16" class="box"></div>          
+          <div id="a15" class="start2 box"><i class="fas fa-home i2 home2"></i></div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="manual-dice">
+          <a class="die-btn" href="hack.html">Manual Dice Site</a>
+        </div>
+  
+        <div class="p2">
+          <h1>Player B</h1>
+          <div class="icon2 icon">
+            <i class="fas fa-male i2 f2" id="b1"></i>
+            <i class="fas fa-male i2 f2" id="b2"></i>
+          </div>
+      </div>
+
+
+
+      </div>
+    </div>
+
+    <footer>    
+
+
+      <div class="">
+        <button onClick="window.location.reload();" class="again-btn">Play Again</button>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7ebb8e5bda.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="game.js"></script>
+  </body>
+</html>

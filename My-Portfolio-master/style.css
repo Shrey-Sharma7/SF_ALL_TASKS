@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #f0a500;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #ea6227;
+}
+
+.port {
+  color: #f5fcc1;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #11999E;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #ea6227;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  font-size: 17px;
+  color: #40514E;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top {
+  position: relative;
+  height: 60px;
+  width: 100%;
+}
+
+.heading {
+  padding-left: 10px;
+  position: absolute;
+  height: 60px;
+}
+
+.middle ul li {
+  margin-top: 20px;
+  text-align: justify;
+  list-style: none;
+  font-size: 20px;
+  color: #b9ebcc;
+  font-weight: bold;
+}
+
+.bottom-container {
+  width: 100%;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.links {
+  position: absolute;
+  right: 5px;
+  margin-top: 15px;
+}
+
+.one {
+  padding: 0 10px;
+}
+
+.hobbie1 {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hobbie2 {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hobbie3 {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.crayon{
+  border-radius: 100%;
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  margin-left: 220px;
+  margin-top: 90px;
+
+}
+.hobbie-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.hobbies {
+  padding-top: 0;
+}
+
+.academics {
+  width: 50%;
+  margin: 50px auto 100px;
+  text-align: center;
+  line-height: 2;
+}
+
+.about-me {
+  font-size: 40px;
+  text-align: center;
+}
+
+.me {
+  text-align: justify;
+  padding-left: 40px;
+}
+
+.profile {
+  display: block;
+  margin-left: 220px;
+  margin-right: auto;
+  width: 15%;
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.contact {
+  font-size: 40px;
+}
+
+.email {
+  margin-left: auto;
+}
+
+.box {
+  width: 15%;
+  display: inline-block;
+  padding-left: 130px;
+  padding-top: 80px;
+}
+
+.about {
+  font-size: 25px;
+}

@@ -1,0 +1,502 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.3;
+  overflow-x: hidden;
+  color: white;
+}
+
+.navi {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 400;
+  position: fixed;
+  background-color: white;
+}
+
+.treehouse-icon {
+  width: 139px;
+  height: 32px;
+}
+
+.nav-item-logo-icon {
+  fill: #5fcf80;
+}
+
+.nav-bar {
+  margin: auto;
+  position: relative;
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+}
+
+.nav-logo {
+  position: relative;
+  vertical-align: middle;
+  width: 45%;
+}
+
+.nav-items {
+  position: relative;
+  text-align: right;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.item {
+  margin-left: 40px;
+}
+
+.navigate-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(120, 140, 140);
+  font-weight: 900;
+}
+
+.navigate-free-trial {
+  color: rgb(95, 207, 128);
+  transition: color;
+}
+
+a.navigate-link:hover {
+  color: #4b5658;
+}
+
+a.navigate-free-trial:hover {
+  color: #34ad58;
+}
+
+.signup {
+  background-image: linear-gradient(to top, #303853 40%, transparent 60%), url(form-image.jpg);
+  padding: 12rem 0 20px 0;
+  background-position-y: 0, -210px;
+  background-size: 100%, 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+.signup-container {
+  margin: 74px auto 0 auto;
+  position: relative;
+  bottom: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1300px;
+}
+
+.form-text {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 40px;
+}
+
+.learn__top {
+  font-size: 34px;
+  letter-spacing: 1px;
+  width: 530px;
+  text-align: left;
+}
+
+.learn__bottom {
+  margin-top: 1rem;
+  font-size: 27px;
+  font-weight: 200;
+  text-align: left;
+  ;
+}
+
+.empty-form {
+  background-color: #fff;
+  border-radius: 5px;
+  color: rgb(64, 72, 74);
+  vertical-align: middle;
+  width: 38em;
+}
+
+.form-title {
+  background-color: rgb(237, 239, 240);
+  padding: 20px;
+  margin: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  color: black;
+}
+
+.form-title-p1 {
+  font-weight: 600;
+}
+
+.form-label-heading {
+  display: block;
+  font-weight: 900;
+}
+
+.form-label-box {
+  display: block;
+  width: 110%;
+  margin-top: 10px;
+  background-color: rgb(249, 250, 250);
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: rgb(64, 72, 74);
+  transition: all 0.2s ease 0s;
+  padding: 0.75rem 1rem;
+  outline: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(212, 217, 221);
+  border-image: initial;
+  border-radius: 4px;
+}
+
+.form-label-box:hover {
+  border-color: #8c9aa6;
+  background-color: #fff;
+}
+
+.form-field {
+  display: inline-block;
+  width: 40%;
+  padding-left: 30px;
+}
+
+.form-row-1 {
+  padding-top: 30px;
+}
+
+.form-checkbox {
+  padding: 25px 0 25px 30px;
+  vertical-align: middle;
+}
+
+.mycheckbox {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.mycheckbox:checked~.si-checkbox {
+  display: inline-block;
+}
+
+.si-checkbox {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  vertical-align: top;
+  position: relative;
+  border-style: solid;
+  border-color: rgb(220, 220, 220);
+  border-width: 2px;
+  border-radius: 4px;
+  transition: all .3s;
+  margin-right: 5px;
+}
+
+.form-button {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(56, 123, 171);
+  width: 90%;
+  margin: 20px auto;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.form-button:hover {
+  background-color: rgb(42, 93, 129);
+}
+
+.bottom-info {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.info {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.feature-bold {
+  font-size: 40px;
+  vertical-align: baseline;
+}
+
+.description {
+  background-image: url(description-image.png);
+  background-size: contain;
+  background-position: top;
+  background-color: rgb(248, 248, 248);
+  background-repeat: no-repeat;
+}
+
+.div-desc {
+  margin: auto;
+  padding-top: 80px;
+  display: flex;
+  max-width: 1300px;
+  flex-wrap: wrap;
+}
+
+.flexible-text {
+  width: 35%;
+  padding-left: 40px;
+  vertical-align: top;
+}
+
+.flex-heading {
+  margin: 0;
+  color: rgb(55, 65, 70);
+  font-size: 30px;
+}
+
+.flex-desc {
+  line-height: 1.5;
+  color: rgb(141, 141, 141);
+  width: 85%;
+  font-size: 17px;
+}
+
+.flexible-video {
+  width: 60%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.flex-girl {
+  position: relative;
+  transform: translate(-77px, 47px);
+}
+
+.flex-line {
+  margin: 70px 20px;
+  border-color: rgb(220, 220, 220) transparent transparent transparent;
+  display: inline-block;
+  border-style: solid;
+  width: 100%;
+}
+
+.sup-val {
+  display: flex;
+  max-width: 1300px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.supportive {
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.sup-heading {
+  margin: 0;
+  color: rgb(55, 65, 70);
+  font-size: 30px;
+}
+
+.sup-desc {
+  line-height: 1.5;
+  color: rgb(141, 141, 141);
+  width: 90%;
+  font-size: 17px;
+}
+
+.valuable {
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block
+}
+
+.val-heading {
+  margin: 0;
+  color: rgb(55, 65, 70);
+  font-size: 30px;
+}
+
+.val-desc {
+  line-height: 1.5;
+  color: rgb(141, 141, 141);
+  width: 90%;
+  font-size: 17px;
+}
+
+.partnerships {
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+}
+
+.partner-images {
+  margin-left: 18px;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-images div {
+  padding: 20px;
+  padding-right: 42px;
+}
+
+.code-challenge {
+  background-image: url(challenge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.about-code-challenge {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.code-line {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 19px;
+}
+
+.challenge-button {
+  width: 160px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(95, 207, 128);
+  display: block;
+  border-radius: 5px;
+  padding: 14px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: all .4s;
+  margin-top: 30px;
+}
+
+.challenge-button:hover {
+  background-color: rgb(50, 175, 90);
+}
+
+.button-learn {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.about-row {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.about-row-column {
+  color: rgb(123, 139, 142);
+  justify-content: space-around;
+  width: 20%;
+  text-align: justify;
+}
+
+.treehouse-icon-2 {
+  width: 132px;
+  height: 32px;
+  fill: #5fcf80;
+}
+
+.list {}
+
+.list ul {
+  list-style: none;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.list ul li {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.list ul li:hover {
+  color: rgb(100, 112, 116);
+}
+
+.icons {
+  box-sizing: border-box;
+  align-self: flex-start;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  padding-right: 5px;
+}
+
+.social-icon:hover {
+  fill: #5fcf80;
+}
+
+footer {
+  background-image: url(footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 11px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-div {
+  max-width: 1300px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h2 {
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.explore-button {
+  border: solid 2px;
+  padding: 9px 26px;
+  font-size: 13px;
+  border-radius: 4px;
+  opacity: 0.88;
+  background-color: white;
+  border-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b5658;
+}
